@@ -49,7 +49,6 @@ config:
     enable_api: true
   org:
      name: Qarik
-     domain: qarik.com
   ssl:
     enable_ssl: true
   remote_execution:
