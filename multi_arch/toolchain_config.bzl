@@ -16,7 +16,7 @@ all_link_actions = [
 ]
 
 def _impl(ctx):
-    common_path = "/home/boran/x-tools"
+    common_path = "/x-tools"
     prefix = ctx.attr.prefix
     compiler_subpath = paths.join(common_path, prefix)
 
